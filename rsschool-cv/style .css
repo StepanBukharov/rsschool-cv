@@ -1,0 +1,151 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f4fd;    
+}
+.conteiner{
+    max-width: 1405px;
+    padding: 0 10px;
+    margin: 0 auto;
+
+}
+.header-flex{
+    display: flex;
+}
+.header-name{
+
+    padding-right: 29px;
+    padding-left: 20px;
+}
+
+/*---------------------------------*/
+
+
+.name-skill{
+    padding-top: 50px;    
+}
+.name-skill li{
+    list-style-type: none;
+}
+.name{
+    font-size: 100px;
+}
+span{
+    color: #fbbc29;
+}
+.my-skill{
+    font-size: 55px;
+    font-weight: 300;
+}
+
+/*-------------------------------*/
+
+.contacts{
+    display: flex;
+    padding-top: 100px;
+}
+.contacts-inner_img{
+    border: solid 10px #fbbc29;
+    padding: 10px;
+    border-radius: 50px;
+}
+.contacts-inner_img li{
+    padding-top:10px ;
+    padding-bottom:10px ;
+}
+.contacts-inner{
+    font-size: 35px;
+    padding-left: 50px;
+    color: #979081;
+}
+.header-logo{
+    padding-left: 90px;
+    padding-top: 60px;
+}
+.header-logo li {
+    padding-left: 70px;
+    border-radius: 100px;
+    padding-top: 10px;
+}
+.logo{
+    border-radius: 500px;
+    position: absolute;   
+    margin-top: 75px
+}
+
+/*-------------------------------*/
+
+
+.main-flex{
+    display: flex;
+}
+
+.profile-title{
+    color:#fbbc29;
+    font-size: 55px;
+    font-weight: 500;
+}
+.profile-text{
+    font-size: 25px;
+}
+.experience-title{
+    color:#fbbc29;
+    font-size: 55px;
+    font-weight: 500;
+}
+.experience-text{
+    font-size: 25px;
+}
+.edukation-title{
+    color:#fbbc29;
+    font-size: 55px;
+    font-weight: 500;
+}
+.edukation-text_inner{
+    font-size: 25px;
+}
+.english-level_title{
+    color:#fbbc29;
+    font-size: 55px;
+    font-weight: 500;
+}
+.english-level_text{
+    font-size: 25px;
+}
+.skills-title{
+    color:#fbbc29;
+    font-size: 55px;
+    font-weight: 500;
+}
+.skills-text_inner{
+    font-size: 25px;
+}
+
+/*---------------------------------*/
+
+.reference{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(63, 58, 58);
+    padding-left: 100px;
+}
+.reference a{
+    color: #fff;
+}
+.rs{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.rs-link{
+    padding-left: 50px;
+}
